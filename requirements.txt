@@ -54,16 +54,9 @@ opencv-python==4.7.0.72
 openpyxl==3.1.2
 outcome==1.2.0
 packaging==21.3
-pandas==1.4.0
-pdfkit==1.0.0
-pdfminer.six==20221105
-pdftopng==0.2.3
-pikepdf==7.2.0
-Pillow==9.5.0
 pipenv==2022.1.8
 pipreqs==0.4.13
 platformdirs==2.4.1
-playwright==1.32.1
 plotly==5.5.0
 pluggy==1.0.0
 py==1.11.0
@@ -71,10 +64,8 @@ pycparser==2.21
 pydyf==0.6.0
 pyee==9.0.4
 pyparsing==3.0.7
-pypdf==3.8.1
 pypdf2==2.12.1
 pyphen==0.14.0
-pyppeteer==1.0.2
 PySocks==1.7.1
 pytest==7.1.2
 python-dateutil==2.8.2

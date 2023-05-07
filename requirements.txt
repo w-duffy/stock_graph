@@ -49,7 +49,6 @@ lxml==4.9.2
 MarkupSafe==2.1.2
 matplotlib==3.5.1
 multidict==6.0.4
-numpy==1.22.1
 openai==0.27.5
 opencv-python==4.7.0.72
 openpyxl==3.1.2

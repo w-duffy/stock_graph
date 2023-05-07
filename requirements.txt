@@ -1,5 +1,5 @@
 Flask==2.0.2
-flask-cors==3.1.1
+flask-cors==3.0.1
 python-dotenv==0.19.2
 requests==2.26.0
 finnhub-python==2.6.1

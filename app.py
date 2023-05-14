@@ -11,7 +11,7 @@ import os
 from flask_cors import CORS
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"/*": {"origins": "http://my-test-site.great-site.net"}})
+# CORS(app, resources={r"/*": {"origins": "http://my-test-site.great-site.net"}})
 
 
 load_dotenv()

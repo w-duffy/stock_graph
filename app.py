@@ -12,7 +12,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 # CORS(app)
-cors = CORS(app, resources={r"/*": {"origins": "*"}})
+cors = CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # CORS(app, resources={r"/*": {"origins": "http://my-test-site.great-site.net"}})
 

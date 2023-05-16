@@ -11,7 +11,9 @@ import os
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
+cors = CORS(app, resources={r"/*": {"origins": ["http://stg-questdata-testenv.kinsta.cloud"]}})
+
 # CORS(app, resources={r"/*": {"origins": "http://my-test-site.great-site.net"}})
 
 

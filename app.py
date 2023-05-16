@@ -57,7 +57,7 @@ def create_plot(prices, ticker):
 def save_plot_to_cloud(fig, ticker):
     filename = f"{ticker}_stock_prices"
     py.plot(fig, f"{filename}.png", auto_open=True)
-    return py.to_html(fig)
+    return "Success!"
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))

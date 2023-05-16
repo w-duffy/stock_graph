@@ -55,8 +55,8 @@ def create_plot(prices, ticker):
     return fig
 
 def save_plot_to_cloud(fig, ticker):
-    filename = f"{ticker}_stock_prices"
-    py.plot(fig, f"{filename}.png", auto_open=True)
+    # filename = f"{ticker}_stock_prices"
+    py.plot(fig, filename = "stock_prices", auto_open=True)
     return "Success!"
 
 if __name__ == '__main__':
